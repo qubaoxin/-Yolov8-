@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f7fb;
+  display: flex;
+}
+
+/* ==== 登录注册页面 ==== */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.auth-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 320px;
+  text-align: center;
+}
+.auth-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.auth-container button {
+  width: 95%;
+  padding: 10px;
+  background-color: #0078d7;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.auth-container button:hover {
+  background-color: #005bb5;
+}
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* ==== 主界面布局 ==== */
+.sidebar {
+  width: 240px;
+  background: #1e293b;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar .profile {
+  text-align: center;
+  padding: 20px 0;
+}
+.sidebar .avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.sidebar nav a {
+  display: block;
+  color: #cbd5e1;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.sidebar nav a.active, .sidebar nav a:hover {
+  background: #334155;
+  color: #fff;
+}
+.logout-btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  background: #ef4444;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 20px;
+}
+.logout-btn:hover {
+  background: #dc2626;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+header {
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.video-section {
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+.video-stream {
+  width: 100%;
+  border-radius: 8px;
+}
